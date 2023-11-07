@@ -1,0 +1,120 @@
+.producto-total{
+    max-width: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.producto {
+    text-align: center;
+    width: 400px;
+    height: auto;
+
+}
+
+.add{
+    background-color: black;
+    color: white;
+    margin-right: 300px;
+    border-radius: 5px; 
+}
+.consideraciones{
+    border: 1px gray solid;
+    color: black;
+    border-radius: 15px; 
+    padding: 15px;
+
+}
+
+.consideraciones{
+    color: black solid;
+    text-align: center;
+}
+
+.img-cont{
+    width: 80%;
+}
+
+
+
+
+@media (max-width: 1024px){
+    .producto-total{
+       max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .productos{
+        padding: 0;
+        margin: 20px;
+    }
+    .producto{
+        margin-right: 10px  ;
+    }
+    
+    .add{
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .producto-total{
+       max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .productos{
+        padding: 0;
+        margin: 20px;
+    }
+    .producto{
+        margin-right: 10px  ;
+    }
+    
+    .add{
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .producto-total img{
+        width: 95vw;
+    }
+    .producto-total img{
+        width: 80%;
+    }
+
+    .producto-total{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .producto{
+        width: 80%;
+        margin: 10px 0;
+    }
+    .add{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
